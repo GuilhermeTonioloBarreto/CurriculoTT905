@@ -1,0 +1,210 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+
+body{
+	margin: 1% 5%;
+	background: #FFF5EE;
+	font-size: 17px;
+}
+
+/* Cabecalho */
+header{
+	display: inline-block;
+	width: 100%;
+	background: #FFE4C4;
+	padding: 10px;
+}
+
+header h1{
+	font-size: 40px;
+}
+
+.foto-perfil img{
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+.menu{
+	display: inline-block;
+	width: 90%;
+	float: right;
+	text-align: center;
+}
+
+.titulo{
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+nav{
+	display: inline-block;
+	float: center;
+	text-align: center;
+	padding: 10px 0px; 
+}
+
+a{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+a:hover{
+	background-color: #FFF5EE;
+}
+
+/*seções*/
+h2{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+details{
+	padding-left: 15px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+p{
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+/*Informações gerais e dados pessoais */
+.primeira-divisao{
+	margin-bottom: 20px;
+}
+
+.info-gerais{
+	display: inline-block;
+	float: left;
+	width: 48%;
+	margin-top: 20px;
+	margin-right: 2%
+}
+
+.dados-pessoais{
+	display: inline-block;
+	float: left;
+	width: 48%;
+	margin-top: 20px;
+	margin-left: 2%
+}
+
+/*segunda-divisao*/
+
+.segunda-divisao{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 25px 0; 
+}
+
+.form-academica-foto{
+	padding-top: 10px;
+	display: inline-block;
+	float: left;
+}
+
+.form-academica{
+	display: inline-block;
+	float: left;
+}
+
+/* Terceira Divisao*/
+
+.terceira-divisao{
+	clear: both;
+	float: left;
+	width: 100%;
+	margin: 25px 0; 
+}
+
+.topico{
+	display: inline-block;
+	float: left;
+	width: 48%;
+}
+
+
+
+.topico details{
+	display: inline-block;
+	clear: both;
+	width: 100%;
+}
+
+/*voluntario*/
+.voluntario{
+	clear: both;
+}
+
+/* Hobbies */
+.hobbies{
+	clear: both;
+}
+
+.hobbies h2{
+	padding: 15px 0;
+}
+
+#telaGrande{
+	display: block;
+	background-color: #ff9999;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin: 10px auto;
+	background-size: cover;
+}
+
+#frames{
+	display: block;
+	margin: 0 auto;
+	width: 235px;
+	height: 75px;
+	
+}
+
+#frames img{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+}
+
+.closed {
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+
+/*Voltar ao topo e footer*/
+.voltar{
+	clear: both;
+}
+
+footer{
+	display: inline-block;
+	width: 100%;
+	background: #FFE4C4;
+	text-align: center;
+	clear: both;
+}
